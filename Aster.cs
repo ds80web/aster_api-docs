@@ -14,7 +14,6 @@ public class OrderResponse
     public JsonElement Data { get; set; }
 }
 
-// C# Method for Aster Exchange Buy Order
 public class AsterExchange
 {
     private string Sign(string apiSecret, string stringToSign)
